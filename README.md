@@ -19,12 +19,12 @@ There is a large bowl of spaghetti in the middle of the table.
 `make` compiles the program.
 
 #### Arguments
-+ number_of_philosophers
-+ time_to_die (in milliseconds)
-+ time_to_eat (in milliseconds)
-+ time_to_sleep (in milliseconds)
-+ number_of_times_each_philosopher_must_eat (optional)
+1. number_of_philosophers
+2. time_to_die (in milliseconds)
+3. time_to_eat (in milliseconds)
+4. time_to_sleep (in milliseconds)
+5. number_of_times_each_philosopher_must_eat (optional)
 
 ```
-$ ./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> <number_of_times_each_philosopher_must_eat>
+$ ./philo <nop> <tod> <toe> <tos> <notepme>
 ```
