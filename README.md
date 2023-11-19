@@ -18,6 +18,8 @@ There is a large bowl of spaghetti in the middle of the table.
 
 `make` compiles the program.
 
+It takes four or five arguments. The last one might end the simulation sooner.
+
 #### Arguments
 1. number_of_philosophers
 2. time_to_die (in milliseconds)
@@ -26,5 +28,7 @@ There is a large bowl of spaghetti in the middle of the table.
 5. number_of_times_each_philosopher_must_eat (optional)
 
 ```
-$ ./philo <nop> <tod> <toe> <tos> <notepme>
+$ ./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> <number_of_times_each_philosopher_must_eat>
 ```
+
+To end the program type `ctrl + c`.
